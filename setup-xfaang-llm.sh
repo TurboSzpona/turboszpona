@@ -45,9 +45,9 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-echo -e "${BLUE}╔══════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}║  Xfaang LLM Gateway Setup for OpenClaw  ║${NC}"
-echo -e "${BLUE}╚══════════════════════════════════════════╝${NC}"
+echo -e "${BLUE}============================================${NC}"
+echo -e "${BLUE}  Xfaang LLM Gateway Setup for OpenClaw    ${NC}"
+echo -e "${BLUE}============================================${NC}"
 echo
 
 # --- Get API key (argument or interactive) ---
@@ -281,9 +281,9 @@ fi
 
 # --- Summary ---
 echo
-echo -e "${GREEN}╔══════════════════════════════════════════╗${NC}"
-echo -e "${GREEN}║          Setup Complete!                 ║${NC}"
-echo -e "${GREEN}╚══════════════════════════════════════════╝${NC}"
+echo -e "${GREEN}============================================${NC}"
+echo -e "${GREEN}          Setup Complete!                   ${NC}"
+echo -e "${GREEN}============================================${NC}"
 echo
 echo -e "Gateway:  ${BLUE}$PROXY_URL${NC}"
 echo -e "Provider: ${BLUE}xfaang${NC}"
